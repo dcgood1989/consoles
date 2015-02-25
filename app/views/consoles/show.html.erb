@@ -1,0 +1,7 @@
+<h1><%= @console.developer %></h1>
+  <hr>
+  <%= @console.release_year %>
+    <hr>
+    <%= @console.description %>
+
+    <%= link_to "Delete", console_path, method: :delete, data: {confirm: "Are you sure you want to delete"}%>
